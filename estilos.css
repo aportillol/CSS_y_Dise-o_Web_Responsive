@@ -1,0 +1,305 @@
+body {
+  text-align: center;
+  font-size: 2em;
+  font-family: Dancing Script;
+  background-color: #02010a;
+	color: white;
+}
+
+p, a, table {
+  text-align: center;
+  font-size: 0.7em;
+  padding: 1vh 1vw;
+}
+
+.contenedor_cabecera {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contenedor_cuerpo_1 {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contenedor_cuerpo_2 {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.contenedor_pie_pagina {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contenedor_cabecera div {
+  box-sizing: border-box;
+  min-width: 50px;
+}
+
+img{
+	border: 2px solid white;
+  width: 70%
+}
+
+.bloque1 {
+  text-align: left;
+  border-top-left-radius: 10px;
+
+  color: #ddd;
+  background-color: #5B7989;
+  min-height: 150px;
+  width: 70%;
+}
+
+.bloque1 h2 {
+  padding: 1vh 1vw;
+}
+
+.bloque10 {
+  border-top-right-radius: 10px;
+  color: #ddd;
+  background-color: #5B7989;
+  min-height: 150px;
+  width: 30%;
+}
+
+.bloque10 a {
+  display: inline-block;
+  float: center;
+  font-size:0.85em;
+  color: white;
+  padding: 3vw 3vh;
+}
+
+
+.bloque2 {
+  color: #333;
+  background-color: #82C3A6;
+  min-height: 300px;
+  width: 100%;
+}
+
+.bloque2 > div {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.bloque3 {
+  color: #333;
+  background-color: #D5C757;
+  min-height: 250px;
+  width: 50%;
+}
+
+.bloque3 > div {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.bloque4 {
+  color: #333;
+  background-color: #D5C757;
+  min-height: 250px;
+  width: 50%;
+}
+
+.bloque4 > div {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.bloque5 {
+  border-bottom-left-radius: 10px;
+  color: #333;
+  background-color: #C6D5C5;
+  min-height: 150px;
+  width: 25%;
+}
+
+.bloque6 {
+  color: #333;
+  background-color: #C6D5C5;
+  min-height: 150px;
+  width: 25%;
+}
+
+.bloque7 {
+  color: #333;
+  background-color: #C6D5C5;
+  min-height: 150px;
+  width: 25%;
+}
+
+.bloque8 {
+  border-bottom-right-radius: 10px;
+  color: #333;
+  background-color: #C6D5C5;
+  min-height: 150px;
+  width: 25%;
+}
+
+@media all and (max-width: 1400px) and (min-width: 700px) {
+ . contenedor_cabecera {
+    width: 90%;
+ }
+
+.bloque1 {
+  width: 100%;
+  min-height: 80px;
+  border-top-right-radius: 10px;
+}
+
+.bloque1 h2 {
+  text-align: center;
+  padding: 1vh 1vw;
+}
+
+
+.bloque10 {
+  width: 100%;
+  min-height: 10px;
+  border-top-right-radius: 0px;
+}
+}
+
+@media all and (max-width: 700px) and (min-width: 480px) {
+ . contenedor_cabecera {
+    width: 92%;
+ }
+ .bloque1 {
+   width: 100%;
+   min-height: 80px;
+   border-top-right-radius: 10px;
+ }
+
+ .bloque1 h2 {
+   text-align: center;
+   padding: 1vh 1vw;
+ }
+
+
+ .bloque10 {
+   width: 100%;
+   min-height: 10px;
+   border-top-right-radius: 0px;
+ }
+
+.bloque3 , .bloque4 {
+  width: 100%;
+}
+
+.bloque5, .bloque8 {
+   width: 100%;
+}
+
+.bloque6, .bloque7 {
+   width: 50%;
+}
+
+.bloque8 {
+  border-bottom-left-radius: 10px;
+}
+
+.bloque5 {
+  border-bottom-left-radius: 0px;
+}
+
+}
+
+@media all and (max-width: 480px) {
+
+  . contenedor_cabecera {
+     width: 95%;
+  }
+  .bloque1 {
+    width: 100%;
+    min-height: 80px;
+    border-top-right-radius: 10px;
+  }
+
+  .bloque1 h2 {
+    text-align: center;
+    padding: 1vh 1vw;
+  }
+
+
+  .bloque10 {
+    width: 100%;
+    min-height: 10px;
+    border-top-right-radius: 0px;
+  }
+
+ .bloque3 , .bloque4 {
+   width: 100%;
+ }
+
+ .bloque5, .bloque6, .bloque7, .bloque8 {
+    width: 100%;
+ }
+
+ .bloque8 {
+   border-bottom-left-radius: 10px;
+ }
+
+ .bloque5 {
+   border-bottom-left-radius: 0px;
+ }
+
+}
+
+#imagen2 {
+  transition: all 2s ease-in-out;
+}
+
+#imagen2:hover,#imagen2.hover_effect {
+  transform: rotate(720deg) scale(0.5,0.5);
+}
+
+#imagen1 {
+  transition: all 1s;
+}
+
+#imagen1:hover {
+  transform: rotate(10deg);
+}
+
+#imagen3 {
+  transition: all 1s;
+}
+
+#imagen3:hover {
+  transform: translate(20px,-5px);
+}
+
+.contenedor_cabecera {
+  animation-duration: 1s;
+  animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-top: 150%;
+    }
+    to {
+      margin-top: -5%;
+    }
+  }
